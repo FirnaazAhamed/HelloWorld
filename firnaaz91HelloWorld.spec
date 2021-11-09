@@ -12,5 +12,10 @@ module firnaaz91HelloWorld {
         This example function accepts any number of parameters and returns results in a KBaseReport
     */
     funcdef run_firnaaz91HelloWorld(mapping<string,UnspecifiedObject> params) returns (ReportResults output) authentication required;
+    
+    /*
+        This is the new function which I'm creating for example. 
+    */
+    funcdef run_firnaaz91HelloWorld_new(mapping<string,UnspecifiedObject> params) returns (ReportResults output) authentication required;
 
 };
