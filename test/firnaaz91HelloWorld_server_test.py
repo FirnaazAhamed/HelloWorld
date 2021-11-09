@@ -65,3 +65,4 @@ class firnaaz91HelloWorldTest(unittest.TestCase):
         # self.assertEqual(ret[...], ...) or other unittest methods
         ret = self.serviceImpl.run_firnaaz91HelloWorld(self.ctx, {'workspace_name': self.wsName,
                                                              'parameter_1': 'Hello World!'})
+        print ("report_name", ret[0]['report_name'])
