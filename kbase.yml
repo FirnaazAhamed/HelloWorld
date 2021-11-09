@@ -2,7 +2,7 @@ module-name:
     firnaaz91HelloWorld
 
 module-description:
-    A KBase module
+    A KBase module <- This is where the module description goes. A module can contain multiple apps. Think of module as a parent project. 
 
 service-language:
     python
